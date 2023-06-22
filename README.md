@@ -2,7 +2,9 @@
 Password generator and facial recognition verifier
 
 Generates passwords with discriptive nouns and symbols so they are easy to remember by employees but hard to hack
+
 Facial recognition creates an automated system for employees to reset their own passwords securely on any company device linked to the same server
+
 Libraries used: random, tkinter, opencv, dlib, face_recognition, numpy
 
 Enter email
