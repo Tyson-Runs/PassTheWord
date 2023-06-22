@@ -5,12 +5,12 @@ Generates passwords with discriptive nouns and symbols so they are easy to remem
 Facial recognition creates an automated system for employees to reset their own passwords securely on any company device linked to the same server
 Libraries used: random, tkinter, opencv, dlib, face_recognition, numpy
 
-![2023-06-19](https://github.com/Tyson-Runs/PassTheWord/assets/129625009/0bb55230-e03b-4883-8c65-fa9201b8508d)
-![2023-06-19 (1)](https://github.com/Tyson-Runs/PassTheWord/assets/129625009/30a64b9c-2295-42b5-9057-4f80dc3aa5fc)
-![2023-06-19 (2)](https://github.com/Tyson-Runs/PassTheWord/assets/129625009/b8ed5085-019c-4ef4-b086-b55dd516036f)
-![2023-06-19 (3)](https://github.com/Tyson-Runs/PassTheWord/assets/129625009/8cb8c717-db8e-401a-afa1-4e1bb4f45d28)
-![2023-06-19 (4)](https://github.com/Tyson-Runs/PassTheWord/assets/129625009/7ef72ed1-1114-46c7-81ae-66c10018807b)
-![2023-06-19 (5)](https://github.com/Tyson-Runs/PassTheWord/assets/129625009/5645b759-10fd-4cd9-8b32-5dde2f28eec2)
-![2023-06-19 (6)](https://github.com/Tyson-Runs/PassTheWord/assets/129625009/d0d8db2b-4d4d-44fb-8116-1ebbf9cb3f35)
-![2023-06-19 (8)](https://github.com/Tyson-Runs/PassTheWord/assets/129625009/2c2d659a-be62-4168-b58f-f9ed11f61645)
-![2023-06-19 (9)](https://github.com/Tyson-Runs/PassTheWord/assets/129625009/a768c7f9-827e-4ae1-896f-b6a6ab3e151a)
+![2023-06-19](https://github.com/Tyson-Runs/PassTheWord/assets/129625009/f8283fbc-e229-4cba-84f5-bfab35e12129)
+![2023-06-19 (1)](https://github.com/Tyson-Runs/PassTheWord/assets/129625009/ba2e7273-31f8-44ea-b0d2-7929c0520a10)
+![2023-06-19 (2)](https://github.com/Tyson-Runs/PassTheWord/assets/129625009/0b14240d-c55e-479a-845b-ed0c3fdc4f62)
+![2023-06-19 (3)](https://github.com/Tyson-Runs/PassTheWord/assets/129625009/d4cf9e8a-6e61-4692-b660-63a23540e9bb)
+![2023-06-19 (4)](https://github.com/Tyson-Runs/PassTheWord/assets/129625009/ecca8426-49c5-4486-ac5d-f4ca1298874a)
+![2023-06-19 (5)](https://github.com/Tyson-Runs/PassTheWord/assets/129625009/c7b60054-e193-4305-a0bb-26016b517015)
+![2023-06-19 (6)](https://github.com/Tyson-Runs/PassTheWord/assets/129625009/848ce2c4-313a-4e83-a39a-05973823d84d)
+![2023-06-19 (8)](https://github.com/Tyson-Runs/PassTheWord/assets/129625009/b9c61844-19af-4822-b4c6-89a05b85527e)
+![2023-06-19 (9)](https://github.com/Tyson-Runs/PassTheWord/assets/129625009/f7f6d68f-d614-4c09-8766-1af879227dba)
