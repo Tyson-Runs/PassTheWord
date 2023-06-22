@@ -15,7 +15,7 @@ Account cannot be re-registered
 ![2023-06-19 (3)](https://github.com/Tyson-Runs/PassTheWord/assets/129625009/d4cf9e8a-6e61-4692-b660-63a23540e9bb)
 Hit reset and enter same email
 ![2023-06-19 (4)](https://github.com/Tyson-Runs/PassTheWord/assets/129625009/ecca8426-49c5-4486-ac5d-f4ca1298874a)
-Photo taken and facial recognition library is used to verify user
+Photo taken and facial recognition library is used to verify user from registration photo
 ![2023-06-19 (5)](https://github.com/Tyson-Runs/PassTheWord/assets/129625009/c7b60054-e193-4305-a0bb-26016b517015)
 Account verified and new password generated
 ![2023-06-19 (6)](https://github.com/Tyson-Runs/PassTheWord/assets/129625009/848ce2c4-313a-4e83-a39a-05973823d84d)
