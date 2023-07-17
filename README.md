@@ -7,7 +7,7 @@ Facial recognition creates an automated system for employees to reset their own 
 
 XOR encryption ensures safe keeping of photo and password data
 
-Libraries used: random, tkinter, opencv, dlib, face_recognition, numpy
+Libraries used: random, tkinter, opencv, dlib, face_recognition, numpy, os
 
 Initial GUI
 ![2023-07-17 (13)](https://github.com/Tyson-Shannon/PassTheWord/assets/129625009/ebc5b319-697c-4308-b354-e0df90221059)
