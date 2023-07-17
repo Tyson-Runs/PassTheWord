@@ -5,6 +5,8 @@ Generates passwords with discriptive nouns and symbols so they are easy to remem
 
 Facial recognition creates an automated system for employees to reset their own passwords securely on any company device linked to the same server
 
+XOR encryption ensures safe keeping of photo and password data
+
 Libraries used: random, tkinter, opencv, dlib, face_recognition, numpy
 
 Initial GUI
