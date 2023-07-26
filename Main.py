@@ -262,10 +262,5 @@ getPass = tk.Button(window, text="Retrieve Password", fg="snow3", bg="maroon", w
 space4 = tk.Label()
 getPass.pack()
 space4.pack()
-#Pembina Logo
-logoPhotoPem = tk.PhotoImage(file="images.png")
-logoPhotoPem = logoPhotoPem.subsample(3, 3)
-logoPembina = tk.Button(window, image=logoPhotoPem, command=default)
-logoPembina.pack()
 
 window.mainloop()
