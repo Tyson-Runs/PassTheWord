@@ -31,10 +31,7 @@ passwordHash = []
 accounts = {}
 #Encryption/decryption keys
 key1 = random.randrange(1, 200)
-key2 = random.randrange(1, 115792089237316195423570985008687907852837564279074904382605163141518161494336)
-#In the extraordinarily rare case that both keys are equal regenerate key2
-while(key1 == key2):
-    key2 = random.randrange(1, 115792089237316195423570985008687907852837564279074904382605163141518161494336)
+key2 = random.randrange(1, 115792089237316195423570985008687907852837564279074904382605163141518161494335)
 #Change working directory for image saving
 directory = r"C:\Users\tysha\OneDrive\Desktop\Code\Password System\Pictures"
 os.chdir(directory)
