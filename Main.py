@@ -30,13 +30,13 @@ nounContent = nounFile.readlines()
 passwordHash = []
 accounts = {}
 #Encryption/decryption keys
-key1 = random.randrange(1, 115792089237316195423570985008687907852837564279074904382605163141518161494336)
+key1 = random.randrange(1, 200)
 key2 = random.randrange(1, 115792089237316195423570985008687907852837564279074904382605163141518161494336)
 #In the extraordinarily rare case that both keys are equal regenerate key2
 while(key1 == key2):
     key2 = random.randrange(1, 115792089237316195423570985008687907852837564279074904382605163141518161494336)
 #Change working directory for image saving
-directory = r"C:\Users\<your username>\OneDrive\Desktop\Code\Password System\Pictures"
+directory = r"C:\Users\tysha\OneDrive\Desktop\Code\Password System\Pictures"
 os.chdir(directory)
 
 #----Encryption/Decryption Code----
@@ -55,7 +55,7 @@ def secureImg(name):
         image = bytearray(image)     
         #Performing XOR operation on each value of bytearray
         for index, values in enumerate(image):
-            image[index] = (values ^ key1) ^ key2     
+            image[index] = values ^ key1    
         #Opening file to write
         file = open(path, "wb")          
         #Writing encrypted data in image
@@ -73,7 +73,7 @@ def encryptPass(password):
             charAr.append(ord(i)) 
         #Performing XOR operation on each value of ASCII array
         for index, values in enumerate(charAr):
-            charAr[index] = (values ^ key1) ^ key2     
+            charAr[index] = values ^ key2     
         return charAr
     except Exception:
         print("Error caught: ", Exception.__name__)
@@ -84,7 +84,7 @@ def decryptPass(charAr):
         output = ""
         #Decrypt ASCII values using XOR and convert back to chars
         for index, values in enumerate(charAr):
-            charAr[index] = chr((values ^ key1) ^ key2)
+            charAr[index] = chr(values ^ key2)
         #Join chars together to return password
         for i in charAr:
             output = output+i
@@ -265,5 +265,10 @@ getPass = tk.Button(window, text="Retrieve Password", fg="snow3", bg="maroon", w
 space4 = tk.Label()
 getPass.pack()
 space4.pack()
+#Pembina Logo
+logoPhotoPem = tk.PhotoImage(file="images.png")
+logoPhotoPem = logoPhotoPem.subsample(3, 3)
+logoPembina = tk.Button(window, image=logoPhotoPem, command=default)
+logoPembina.pack()
 
 window.mainloop()
